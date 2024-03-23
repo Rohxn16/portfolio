@@ -1,0 +1,46 @@
+.navbar{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    bottom: 1.5rem;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 15px 20px;
+    margin-top: 3rem;
+    /* border: 1px solid white; */
+    /* make the border fade a little fade */
+
+
+    border-radius: 20px;
+    max-width:50vw;
+    background-color: rgba(68, 68, 68, 0.303);
+}
+
+.nav-item{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+.nav-item a{
+    /* font-size: 1.5rem; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(5, 165, 251);
+}
+
+.nav-item a:hover{
+    color: white;
+    transition: 0.3s ease-out;
+}
