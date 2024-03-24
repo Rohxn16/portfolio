@@ -1,0 +1,58 @@
+.main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin-left: 25%;
+    max-width: 70%;
+    margin-right: 24%;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+
+.display{
+    color: #00b4d8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.myImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #00b4d8;
+}
+
+.big{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #dad7cd;
+}
+
+.big a{
+    text-decoration: none;
+    color: #dad7cd;
+    text-decoration: none;
+}
+
+.college{
+    text-decoration:none;
+}
+.socials{
+    position: fixed;
+    right: 3rem;
+    line-height: 4rem;
+    margin-top: 5rem;
+}
+
+.sm-links{
+    list-style: none;
+}
+
+.sm-link a{
+        font-size: 2rem;
+        color: #90e0ef;
+}
+

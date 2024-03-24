@@ -1,0 +1,23 @@
+.head{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    color: #90e0ef;
+}
+
+.skillsGrid{
+    /* do a grid view with 3 items in each row */
+    /* Make them closer to each other and centerd on the scree/n */
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(3, 30rem);
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+
+}

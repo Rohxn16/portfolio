@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 // import some icons for the navbar form the react icons library
-import { FaHome, FaUser, FaBriefcase, FaEnvelope, FaFileAlt, FaPhone, FaHouseUser } from 'react-icons/fa'
+import { FaHome, FaUser, FaBriefcase, FaEnvelope, FaFileAlt, FaPhone, FaHouseUser, FaMedal } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -16,16 +16,23 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/about" className="nav-link" activeClassName="active">
+          <NavLink to="/projects" className="nav-link" activeClassName="active">
             <div className="grp">
-            <FaUser/> ABOUT
+            <FaUser/> PROJECTS
             </div>
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/services" className="nav-link" activeClassName="active">
+          <NavLink to="/skills" className="nav-link" activeClassName="active">
             <div className="grp">
             <FaBriefcase/> SKILLS
+            </div>
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/achievements" className="nav-link" activeClassName="active">
+            <div className="grp">
+            <FaMedal/> ACHIEVEMENTS
             </div>
           </NavLink>
         </li>
@@ -37,7 +44,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/resume" className="nav-link" activeClassName="active">
+          <NavLink to="/resume" className="nav-link">
             <div className="grp">
             <FaBriefcase/> RESUME
             </div>

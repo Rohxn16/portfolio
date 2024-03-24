@@ -16,13 +16,10 @@
     max-width: 1200px;
     padding: 15px 20px;
     margin-top: 3rem;
-    /* border: 1px solid white; */
-    /* make the border fade a little fade */
-
-
+    border: 1px solid rgba(255, 255, 255, 0.293);
     border-radius: 20px;
-    max-width:50vw;
-    background-color: rgba(68, 68, 68, 0.303);
+    max-width:60vw;
+    background-color: rgba(0, 0, 0, 0.141);
 }
 
 .nav-item{
@@ -37,7 +34,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: rgb(5, 165, 251);
+    color: #90e0ef;
 }
 
 .nav-item a:hover{

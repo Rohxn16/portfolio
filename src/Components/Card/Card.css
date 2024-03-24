@@ -1,0 +1,39 @@
+.card{
+    width: 20vw;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgba(8, 1, 1, 0.175);
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardImage{
+    width: 90%;
+    margin-top: 1rem;
+    margin-left: 0.9vw;
+    border-radius: 20px;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cardHeader{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #d5ebf6;
+}
+
+.cardDescription{
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+    color: #90e0ef;
+}
