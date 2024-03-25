@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 // import some icons for the navbar form the react icons library
-import { FaHome, FaUser, FaBriefcase, FaEnvelope, FaFileAlt, FaPhone, FaHouseUser, FaMedal } from 'react-icons/fa'
+import { FaHome, FaUser, FaBriefcase, FaEnvelope, FaFileAlt, FaPhone, FaHouseUser, FaMedal, FaProjectDiagram, FaRProject } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -16,9 +16,16 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav-item">
+          <NavLink to="/about" className="nav-link" activeClassName="active" exact>
+            <div className="grp">
+            <FaUser/> ABOUT
+            </div>
+          </NavLink>
+        </li>
+        <li className="nav-item">
           <NavLink to="/projects" className="nav-link" activeClassName="active">
             <div className="grp">
-            <FaUser/> PROJECTS
+            <FaProjectDiagram/> PROJECTS
             </div>
           </NavLink>
         </li>

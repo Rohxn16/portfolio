@@ -1,0 +1,27 @@
+.abt-me{
+    margin: 5rem;
+}
+
+.abt-me h1{
+    font-size: 2.5rem;
+    color: #90e0ef;
+    text-align: center;
+}
+
+.abt-me h3{
+    font-size: 2rem;
+    color: #90e0ef;
+    text-align: center;
+}
+
+.bigger{
+    font-size: 3rem;
+    color: white;
+}
+
+.calendar{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
